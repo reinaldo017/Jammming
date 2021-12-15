@@ -1,0 +1,44 @@
+.form {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__text-input {
+  width: 85%;
+  max-width: 17rem;
+  padding: 1rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+.form__submit {
+  padding: 0.75em 3em;
+  margin: 2rem auto;
+  border-radius: 2em;
+  border: 0;
+  background-color: #010c3f;
+  color: #FFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.form__submit:hover {
+  background-color: rgba(108, 65, 233, 0.7);
+}
+/*# sourceMappingURL=searchbar.css.map */

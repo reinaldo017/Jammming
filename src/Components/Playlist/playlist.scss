@@ -1,0 +1,51 @@
+@import '../../sass/globals';
+
+.playlist {
+    width: 90%;
+    max-width: 490px;
+    margin-bottom: 3rem;
+    background-color: rgba(1,12,63,.7);
+    color: #FFF;
+    border-radius: 0.25em;
+    box-shadow: 3px 4px 1px #000;
+
+    @media screen and (min-width: $tablet-size) {
+        width: 40%;
+    }
+
+    &__container {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    &__name {
+        width: 100%;
+        background-color: transparent;
+        color: #FFF;
+        border: 0;
+        border-bottom: 1px solid rgb(111, 111, 111);
+        outline: 0;
+        font-size: 1.75rem;
+        font-family: $font-2;
+        font-weight: bold;
+    }
+
+    &__tracks {
+        list-style: none;
+        padding: 0;
+    }
+
+    &__button {
+        display: block;
+        padding: 1em 1.75em;
+        margin: 2rem auto;
+        border-radius: 2em;
+        border: 0;
+        background-color: #6c41ec;
+        color: #FFF;
+        font-weight: bold;
+        font-family: $font-1;
+        font-size: 0.9rem;
+        cursor: pointer;
+    }
+}

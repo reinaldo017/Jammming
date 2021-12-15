@@ -1,0 +1,35 @@
+@import '../../sass/globals';
+
+.form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    @include vertical-align(space-between, center);
+
+    &__text-input {
+        width: 85%;
+        max-width: 17rem;
+        padding: 1rem;
+        text-align: center;
+        font-family: $font-2;
+        font-size: 1rem;
+    }
+
+    &__submit {
+        padding: 0.75em 3em;
+        margin: 2rem auto;
+        border-radius: 2em;
+        border: 0;
+        background-color: #010c3f;
+        color: #FFF;
+        font-family: $font-2;
+        font-size: 0.9rem;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba(108,65,233,.7);
+        }
+
+    }
+    
+}

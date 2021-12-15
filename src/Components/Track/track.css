@@ -1,0 +1,38 @@
+.track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #FFF;
+  font-family: "Work Sans", sans-serif;
+}
+
+.track__name {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.track__artist {
+  margin-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.track__button {
+  background-color: transparent;
+  border: 0;
+  color: #FFF;
+  font-size: 1.75rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=track.css.map */

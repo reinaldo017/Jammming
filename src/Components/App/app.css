@@ -1,0 +1,67 @@
+.app {
+  font-size: 0.9rem;
+}
+
+@media screen and (min-width: 375px) {
+  .app {
+    font-size: 1rem;
+  }
+}
+
+.header {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #FFF;
+  background-color: #010c3f;
+}
+
+.header span {
+  color: #6c41ec;
+}
+
+.main {
+  background-image: url("../../imgs/background_photo_desktop.37be7357.jpg");
+  background-size: cover;
+  width: 100%;
+}
+
+.main .container {
+  width: 85%;
+  max-width: 1230px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (min-width: 740px) {
+  .main .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+/*# sourceMappingURL=app.css.map */

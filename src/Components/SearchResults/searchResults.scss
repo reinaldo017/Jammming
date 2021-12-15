@@ -1,0 +1,31 @@
+@import '../../sass/globals';
+
+.results {
+    width: 90%;
+    max-width: 612px;
+    min-height: 30rem;
+    margin-bottom: 3rem;
+    background-color: rgba(1,12,63,.7);
+    color: #FFF;
+    font-family: $font-2;
+    border-radius: 0.25em;
+    box-shadow: 3px 4px 1px #000;
+
+    @media screen and (min-width: $tablet-size) {
+        width: 50%;
+    }
+
+    &__container {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    &__title {
+        font-size: 1.75rem;
+    }
+
+    &__tracks {
+        list-style: none;
+        padding: 0;
+    }
+}

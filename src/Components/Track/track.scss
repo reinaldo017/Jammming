@@ -1,0 +1,27 @@
+@import '../../sass/globals';
+
+.track {
+    @include horizontal-align(space-between, center);
+    border-bottom: 1px solid #FFF;
+    font-family: $font-1;
+
+    &__name {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+
+    &__artist {
+        margin-top: 0.5rem;
+        color: hsla(0,0%,100%,.8);
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    &__button {
+        background-color: transparent;
+        border: 0;
+        color: #FFF;
+        font-size: 1.75rem;
+        cursor: pointer;
+    }
+}
