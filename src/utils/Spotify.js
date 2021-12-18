@@ -3,7 +3,7 @@ const Spotify = (() => {
     let accessToken = '';
     const clientId = '9434a31109c74623bb11b0e6b5be9702';
     const urlToFetch = 'https://accounts.spotify.com/authorize';
-    const redirectUri = 'http://localhost:3000/';
+    const redirectUri = 'https://jammingwithreinaldo.netlify.app/';
     const scope = 'playlist-modify-private, playlist-modify-public';
     const endpoint = `${urlToFetch}?client_id=${clientId}&response_type=token&redirect_uri=${redirectUri}&scope=${scope}`;
     const url = window.location.href;
