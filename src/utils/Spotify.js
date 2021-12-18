@@ -1,5 +1,6 @@
 
 const Spotify = (() => {
+    
     let accessToken = '';
     const clientId = '9434a31109c74623bb11b0e6b5be9702';
     const urlToFetch = 'https://accounts.spotify.com/authorize';
