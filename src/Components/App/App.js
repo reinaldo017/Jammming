@@ -62,7 +62,7 @@ function App() {
         <SearchBar changeSearchTerm={changeSearchTerm} fetchResults={fetchResults}/>
         <section className="container">
           <SearchResults results={results} addToPlaylist={addToPlaylist}/>
-          <Playlist tracks={tracksAdded} remove={removeFromPlaylist}/>
+          <Playlist tracks={tracksAdded} remove={removeFromPlaylist} setTracksAdded={setTracksAdded}/>
         </section>
       </main>
     </div>

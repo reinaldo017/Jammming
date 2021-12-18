@@ -3,7 +3,7 @@ import './playlist.css';
 import Track from '../Track/Track';
 import Spotify from '../../utils/Spotify';
 
-function Playlist({ tracks, remove }) {
+function Playlist({ tracks, remove, setTracksAdded }) {
     const [playlist, setPlaylist] = useState({ name: 'New Playlist'});
 
     useEffect(() => {
@@ -108,9 +108,11 @@ function Playlist({ tracks, remove }) {
             .catch( error => {
                 console.log(error.message);
             })
+
+        setTracksAdded([]);
     };
 
-    const tracksAdded = tracks.map(track => {
+    let tracksAdded = tracks.map(track => {
         return (
             <li key={track.id}>
                 <Track info={track} removeFromPlaylist={remove}/>
